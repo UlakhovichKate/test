@@ -40,10 +40,10 @@
                            aria-expanded="false">blog</a>
                         <ul class="dropdown-menu" role="menu">
                             <li>
-                                <a href="#">Categories</a>
+                                <a href="{{route('admin.category.index')}}">Categories</a>
                             </li>
                             <li>
-                                <a href="#">Materials</a>
+                                <a href="{{route('admin.category.index')}}">Materials</a>
                             </li>
                         </ul>
                     </li>
