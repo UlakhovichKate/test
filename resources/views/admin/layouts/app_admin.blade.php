@@ -43,7 +43,7 @@
                                 <a href="{{route('admin.category.index')}}">Categories</a>
                             </li>
                             <li>
-                                <a href="{{route('admin.category.index')}}">Materials</a>
+                                <a href="{{route('admin.article.index')}}">Materials</a>
                             </li>
                         </ul>
                     </li>

@@ -26,7 +26,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <a class="btn btn-block btn-default" href="#">Create category</a>
+                <a class="btn btn-block btn-default" href="{{route('admin.category.create')}}">Create category</a>
                 <a class="list-group-item" href="{{route('admin.category.create')}}">
                     <h4 class="list-group-item-heading">First category</h4>
                     <p class="list-group-item-text">
