@@ -9,8 +9,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
-            <ul class="navbar-nav nav">
-                @include('layouts.top_menu', ['caregories' =>$categories])
+            <ul class="nav navbar-nav ">
+                @include('layouts.top_menu', ['caregories' => $categories])
             </ul>
 
             <!-- Right Side Of Navbar -->

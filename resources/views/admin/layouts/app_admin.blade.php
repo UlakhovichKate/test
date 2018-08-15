@@ -42,12 +42,15 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-expanded="false"> blog</a>
                         <ul class="dropdown-menu" role="menu">
-                            <li>
-                                <a href="{{route('admin.category.index')}}">Categories</a>
-                            </li>
-                            <li>
-                                <a href="{{route('admin.article.index')}}">Materials</a>
-                            </li>
+                            <li><a href="{{route('admin.category.index')}}">Categories</a></li>
+                            <li><a href="{{route('admin.article.index')}}">Materials</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-expanded="false"> people control</a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{route('admin.user_management.user.index')}}">peoples</a></li>
                         </ul>
                     </li>
                 </ul>
